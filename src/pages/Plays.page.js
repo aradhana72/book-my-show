@@ -71,7 +71,9 @@ return (
        <div className="lg:w-1/4">
         <h2 className="text-2xl font-bold mb-4">Filters</h2>
         <div>
-        <PlaysFilter />
+        <PlaysFilter title="Date" tags={["Today", "Tomorrow", "This Weekend"]}/>
+        <PlaysFilter title="Language" tags={["Tamil", "Kannada"]}/>
+        <PlaysFilter title="Categories" tags={["Theatre"]}/>
         </div>
        </div>
    </div>
