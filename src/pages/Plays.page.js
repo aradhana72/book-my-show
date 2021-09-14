@@ -1,5 +1,6 @@
 import React from "react";
 import Poster from '../components/Poster/poster.component';
+import PlaysFilter from "../components/PlaysFilters/PlaysFilters.component.js";
 const Plays = () => {
 return (
 <>
@@ -69,6 +70,9 @@ return (
 
        <div className="lg:w-1/4">
         <h2 className="text-2xl font-bold mb-4">Filters</h2>
+        <div>
+        <PlaysFilter />
+        </div>
        </div>
    </div>
 </div>
